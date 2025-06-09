@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp chool hello
+sudo chgrp chool hello
