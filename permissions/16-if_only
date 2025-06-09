@@ -1,8 +1,2 @@
 #!/bin/bash
-fichier="hello"
-owner="guillaume"
-
-file_owner=$ (stat -c %u "$hello")
-if [ "file_owner" ] == [ "$owner" ]; then
-chown vincent hello
-
+chown -R --from=guillaume vincent hello
