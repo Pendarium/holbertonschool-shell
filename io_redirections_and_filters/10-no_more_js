@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in "$(find . -name *.js)" ; do rm "$i" ; done
+find ~ -name ".js" -delete
