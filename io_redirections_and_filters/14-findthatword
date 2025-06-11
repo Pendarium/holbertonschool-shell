@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~ -files0-from root /etc/passwd
+find --files0-from root /etc/passwd
