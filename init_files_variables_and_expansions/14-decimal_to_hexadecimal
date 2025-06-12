@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((16#FF))
+export DECIMAL=16 && printf '16%x10' $DECIMAL
